@@ -6143,3 +6143,15 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 16
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-02 17:51:32.719
+!MESSAGE [Info]	ESLint server running in node v18.12.1
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-02 17:51:42.083
+!MESSAGE [Info]	ESLint server running in node v18.12.1
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-02 17:51:42.245
+!MESSAGE [Info]	No ES Libary found for file: file:///C:/Users/158213/spring-interview-workspace/user-service/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-01-02 17:53:31.058
+!MESSAGE [Info]	No ES Libary found for file: file:///C:/Users/158213/spring-interview-workspace/interview-feedback-service/src/main/resources/application.yml
