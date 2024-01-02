@@ -1,18 +1,18 @@
 version: '3'
 services:
-  eureka-server:
-    build: ./eureka-server
+  eureka-service:
+    build: ./eureka-service
     ports:
       - "8761:8761"
     networks:
       - my-network
 
-  gateway:
-    build: ./gateway
+  gateway-service:
+    build: ./gateway-service
     ports:
       - "8080:8080"
     depends_on:
-      - eureka-server
+      - eureka-service
     networks:
       - my-network
 
@@ -27,7 +27,7 @@ services:
       SPRING_DATASOURCE_PASSWORD: root
     depends_on:
       - db
-      - eureka-server
+      - eureka-service
     networks:
       - my-network
   
@@ -48,7 +48,7 @@ services:
       SPRING_DATA_MONGODB_DATABASE: interviewdb
     depends_on:
       - mongodb
-      - eureka-server
+      - eureka-service
     networks:
       - my-network
   
