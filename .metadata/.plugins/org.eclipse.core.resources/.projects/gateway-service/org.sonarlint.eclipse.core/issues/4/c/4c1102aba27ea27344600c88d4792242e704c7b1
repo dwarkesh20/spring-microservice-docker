@@ -1,0 +1,25 @@
+
+ˆ
+java:S1104"UMake isSecured a static final constant or non-public and provide accessors if needed.(»†°Ò8Õ ¹×¬1HÄ#RMINORZ
+CODE_SMELL
+
+java:S1104("WMake isSecuredHR a static final constant or non-public and provide accessors if needed.(ë¼¬Ôşÿÿÿÿ8Õ ¹×¬1H¿#RMINORZ
+CODE_SMELL
+˜
+java:S1104/"`Make isSecuredInterviewer a static final constant or non-public and provide accessors if needed.(íöâØûÿÿÿÿ8Õ ¹×¬1HÆ#RMINORZ
+CODE_SMELL
+‚
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8”£äØ¬1H»#RMINORZ
+CODE_SMELL
+‰
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ8úäï×¬1HÀ#RMINORZ
+CODE_SMELL
+~
+java:S1128	"KRemove this unused import 'org.springframework.context.annotation.Primary'.(“ğ›ß8úäï×¬1HÂ#RMINORZ
+CODE_SMELL
+“
+java:S1128"`Remove this unused import 'org.springframework.boot.context.properties.ConfigurationProperties'.(¦Õ¸Ç8úäï×¬1H½#RMINORZ
+CODE_SMELL
+“
+java:S1104!"[Make isSecuredCommon a static final constant or non-public and provide accessors if needed.(ìÌ¿¢şÿÿÿÿ8‘Ìàİ¬1HÅ#RMINORZ
+CODE_SMELL

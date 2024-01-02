@@ -1,0 +1,35 @@
+version: '3'
+services:
+  eureka-server:
+    build: ./eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - my-network
+
+  gateway:
+    build: ./gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - eureka-server
+    networks:
+      - my-network
+
+  user-service:
+    build: ./user-service
+    depends_on:
+      - eureka-server
+    networks:
+      - my-network
+
+  interview-feedback-service:
+    build: ./interview-feedback-service
+    depends_on:
+      - eureka-server
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge

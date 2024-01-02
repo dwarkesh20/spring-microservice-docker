@@ -1,0 +1,101 @@
+[
+  {
+    "documentNo": "EI/GL/HR/FORM/0001",
+    "revisionNo": "2.1",
+    "effectiveDate": "15 - Oct - 2013",
+    "candidateInfo": {
+      "fullName": "John Doe",
+      "position": "Software Engineer",
+      "division": "PES - ISV",
+      "totalExperience": "8 years",
+      "relevantExperience": "5 years",
+      "primarySkills": "Java",
+      "secondarySkills": "SQL"
+    },
+    "interviewerInfo": {
+      "name": "Jane Smith",
+      "designation": "Sr. Technical Lead"
+    },
+    "technicalEvaluation": [
+      {
+        "skill": "Java Basics",
+        "rating": "B",
+        "comments": "Solid understanding"
+      }
+    ],
+    "softSkillsEvaluation": [
+      {
+        "skill": "Communication",
+        "rating": "A"
+      }
+    ],
+    "hiringDecision": "Hire",
+    "dateOfInterview": "2023-08-23"
+  },
+  {
+    "documentNo": "EI/GL/HR/FORM/0002",
+    "revisionNo": "1.5",
+    "effectiveDate": "20 - Nov - 2013",
+    "candidateInfo": {
+      "fullName": "Alice Johnson",
+      "position": "Frontend Developer",
+      "division": "PES - UI/UX",
+      "totalExperience": "6 years",
+      "relevantExperience": "4 years",
+      "primarySkills": "HTML, CSS, JavaScript",
+      "secondarySkills": "React"
+    },
+    "interviewerInfo": {
+      "name": "Bob Williams",
+      "designation": "Tech Lead"
+    },
+    "technicalEvaluation": [
+      {
+        "skill": "HTML",
+        "rating": "A",
+        "comments": "Strong expertise"
+      }
+    ],
+    "softSkillsEvaluation": [
+      {
+        "skill": "Communication",
+        "rating": "B"
+      }
+    ],
+    "hiringDecision": "Hire",
+    "dateOfInterview": "2023-08-25"
+  },
+  {
+    "documentNo": "EI/GL/HR/FORM/0003",
+    "revisionNo": "2.1",
+    "effectiveDate": "15 - Oct - 2013",
+    "candidateInfo": {
+      "fullName": "ABC PQR",
+      "position": "Software Engineer",
+      "division": "PES - ISV",
+      "totalExperience": "10 (HTML Designer (3 years - Java 7+)",
+      "relevantExperience": "7.5+",
+      "primarySkills": "Java",
+      "secondarySkills": ""
+    },
+    "interviewerInfo": {
+      "name": "Pragnesh Rathod",
+      "designation": "Sr. Technical Lead"
+    },
+    "technicalEvaluation": [
+      {
+        "skill": "Fundamental Knowledge (OOPS, Polymorphism, Java Basics",
+        "rating": "C",
+        "comments": "Was not able to right a simple piece of code that demonstrates runtime polymorphism correctly"
+      }
+    ],
+    "softSkillsEvaluation": [
+      {
+        "skill": "Learning curve – Quick Learning",
+        "rating": "C"
+      }
+    ],
+    "hiringDecision": "NO-HIRE",
+    "dateOfInterview": "09 DEC 2022"
+  }  
+]

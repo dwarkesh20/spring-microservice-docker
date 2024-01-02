@@ -1,0 +1,24 @@
+# Build Stage
+FROM maven:3.8.5-openjdk-17 AS builder
+
+# Set the working directory in the container
+WORKDIR /
+
+# Copy the entire content of the current directory to the container
+COPY . .
+
+# Build the application using Maven, skipping tests
+RUN mvn clean install -DskipTests
+
+
+# Final Stage
+FROM openjdk:17
+
+# Set the working directory in the container
+WORKDIR /
+
+# Copy the compiled JAR file from the build stage to the final image
+COPY --from=builder /target/interview-feedback-service.jar .
+
+# Command to run the Interview Feedback Service when the container starts
+CMD ["java", "-jar", "interview-feedback-service.jar"]
