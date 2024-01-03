@@ -10,7 +10,7 @@ services:
   gateway-service:
     build: ./gateway-service
     ports:
-      - "8080:8080"
+      - "8888:8888"
     depends_on:
       - eureka-service
     networks:
